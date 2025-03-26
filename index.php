@@ -11,7 +11,11 @@ include("validarSessao.php");
     <title>Document</title>
 </head>
 <body>
-    Seja bem vindo <?php echo $_SESSION['nome']; ?>
+    Seja bem vindo <?php echo $_SESSION['nome'];?> 
+    <br>
+    Seu Email e <?php echo $_SESSION['email'];?>
+    <br>
+    Seu whatsapp e <?php echo $_SESSION['whatsapp'];?>
     <br>
     <a href="sair.php">Sair do Sistema</a>
 

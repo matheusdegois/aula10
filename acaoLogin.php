@@ -13,6 +13,7 @@ if($sql->rowCount() > 0) {
     session_start();
     $_SESSION["id"] = $dados["id"];
     $_SESSION["nome"] = $dados["nome"];
+    $_SESSION["email"] = $dados["email"];
     $_SESSION["whatsapp"] = $dados["whatsapp"];
 
     header("location: index.php");
